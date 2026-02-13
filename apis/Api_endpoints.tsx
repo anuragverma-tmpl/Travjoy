@@ -1,0 +1,5 @@
+const BASE_URL = "http://192.168.1.108:1337/api";
+const Filter_URL = "http://192.168.1.108:1337/api/my-filters??populate[activity_cards][populate][image][fields][0]=url&populate[activity_cards][populate][image][fields][1]=alternativeText&populate[iconImage][fields][0]=url&populate[iconImage][fields][1]=alternativeText";
+const Base_Slug_Url = `http://192.168.1.108:1337/api/expers?filters[slug][$eq]=`;
+const Slug_Url = `&populate[image][fields][0]=url&populate[image][fields][1]=alternativeText&populate[tagImage][fields][0]=url&populate[tagImage][fields][1]=alternativeText&populate[WheelchairAccessibility][populate][wheelChair][fields][0]=url&populate[WheelchairAccessibility][populate][wheelChair][fields][1]=alternativeText&populate[location][fields][0]=title&populate[location][fields][1]=location1`;
+export { BASE_URL, Filter_URL, Slug_Url, Base_Slug_Url };
